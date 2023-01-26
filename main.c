@@ -6,6 +6,10 @@
 #define LESS_ARGS   USAGE_MSG
 #define MANY_ARGS   USAGE_MSG
 
+void parse_file(FILE * fp) {
+    
+}
+
 int main(int argc, char ** argv) {
     if (argc < 2) {
         printf(LESS_ARGS);
